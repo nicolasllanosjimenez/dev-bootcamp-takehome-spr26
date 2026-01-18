@@ -2,37 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Samuel Llanos — Bits of Good</title>
+    <title>Nicolas Llanos J. — Bits of Good</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Inter:wght@300;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-    <!-- Floating Symbols -->
-    <div class="symbols">
-        <span class="crown">♕</span>
-        <span class="x">X</span>
-        <span class="scribble">???</span>
+    <!-- Background texture -->
+    <div class="bg-text">
+        MUSIC NOISE CODE MUSIC NOISE CODE
+        MUSIC NOISE CODE MUSIC NOISE CODE
     </div>
 
-    <!-- Card -->
-    <section class="card">
-        <h1 class="name">SAMUEL</h1>
-        <h1 class="name offset">LLANOS</h1>
+    <!-- Floating symbols container -->
+    <div class="symbols" aria-hidden="true"></div>
 
-        <p class="meta">Computer Science • Class of 2026</p>
+    <!-- Main stage -->
+    <main class="stage">
+        <div class="cd" aria-hidden="true"></div>
 
-        <p class="statement">
-            I believe technology should be loud, accessible,
-            and built for people who are usually ignored.
-        </p>
+        <section class="card">
+            <h1 class="name">NICOLAS</h1>
+            <h1 class="name offset">LLANOS J.</h1>
 
-        <p class="passion">
-            Passion: <span>Education access & digital equity</span>
-        </p>
+            <p class="meta">Computer Engineering • Sophomore</p>
 
-        <button id="chaosBtn">CREATE CHAOS</button>
-    </section>
+            <p class="statement">
+                Growing up in a developing country and later becoming an immigrant shaped my empathy and my commitment to giving back.
+                <span class="crossed">Sympathy</span> Empathy.
+            </p>
+
+            <button id="toggleSpin" aria-pressed="false">
+                PLAY / PAUSE
+            </button>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
